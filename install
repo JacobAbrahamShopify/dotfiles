@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ln -sf ~/dotfiles/zshrc ~/.zshrc
+
+sudo apt-get install -y fzf
+
+if [$SPIN]; then
+  echo "only on Spin!"
+fi
